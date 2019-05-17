@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: -webkit-linear-gradient(#59A38C, #D0FDAE);
+	background: -o-linear-gradient(#59A38C, #D0FDAE);
+	background: linear-gradient(#59A38C, #D0FDAE);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
+}
+form {
+	margin: 100px auto;
+	width: 960px;
+}
+h1 {
+	margin-top: 50px;
+	font-weight: normal;
+	color: #034371;
+	text-align: center;
+}
+.heading2 {
+	margin-top: 50px;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+.container {
+	width: 500px;
+	margin: 80px auto 40px;
+}
+.incon {
+	margin: 15px auto;
+	width: 400px;
+	height: 50px;
+	font-size: 24px;
+	color: #034371;
+}
+label {
+	float: left;
+	margin-top: 2px;
+	width: 150px;
+	text-align: left;
+	color: #4E6C81;
+}
+.input-text, select {
+	height: 35px;
+	width: 230px;
+	border-radius: 7px;
+	border: thin #848484;
+	text-indent: 10px;
+	font-size: 15px;
+}
+.button {
+	background: -webkit-linear-gradient(#87D46A, #216A06);
+	background: -o-linear-gradient(#87D46A, #216A06);
+	background: linear-gradient(#87D46A, #216A06);
+	color: white;
+	width: 120px;
+	height: 40px;
+	float: right;
+	font-size: 14px;
+	margin-right: 20px;
+	border-radius: 5px;
+	border: 1px solid #119801;
+}
+.button:hover {
+	background: linear-gradient(#69D071, #098C13);
+}
+.button:active {
+	background: linear-gradient(#216A06, #87D46A);
+	border-top: 2px solid #119801;
+}
+table {
+	margin: 80px auto;
+	border-collapse: collapse;
+	width: 900px;
+	height: 180px;
+	color: #436B89;
+}
+td, th {
+	background: linear-gradient(#FFFFFF, #CFCFCF);
+	border: 1px solid #dddddd;
+	text-align: center;
+	width: 140px;
+}
+.tdhead {
+	background: linear-gradient(#093D4C, #334F83);
+	color: white;
+}
+.menu {
+	width: 920px;
+	height: 70px;
+	margin: 50px auto;
+}
+.menu-block {
+	background: linear-gradient(#4A8BB8, #004376);
+	margin-left: 5px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding: 24px;
+	text-decoration: none;
+	float: left;
+}
+.menu-block:hover {
+	background: linear-gradient(#1572B8, #123855);
+	color: E3E3E3;
+}
+#link {
+	background: linear-gradient(#093D4C, #334F83);
+	color: white;
+	padding: 14px;
+	text-decoration: none;
+}
+#link:hover {
+	background: linear-gradient(#334F83, #093D4C);
+}
+.error {
+	float: right;
+	padding-right: 60px;
+	margin: 0px auto;
+	width: 400px;
+	height: 50px;
+	font-size: 24px;
+	color: darkred;
+}
